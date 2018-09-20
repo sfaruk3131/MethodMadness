@@ -1,3 +1,4 @@
+// Shihab Faruk 9/20/18
 package sfaruk;
 
 public class sfarukLib {
@@ -7,13 +8,13 @@ public class sfarukLib {
         System.out.println(str);
     }
 
-    public static boolean is Palendrome(String word)
+    public static boolean isPalindrome(String word)
     {
         String Back = "";
         boolean Same = true;
         if(word.length() == 1)
         {
-            return true;
+            Same = true;
         }
 
         for(int x = word.length() - 1 ; x >= 0 ; x--)
@@ -21,9 +22,31 @@ public class sfarukLib {
             Back = Back + word.substring(x,x + 1);
         }
 
-        while(Same == true)
+        if(word.equals(Back) == true)
         {
-            
+            Same = true;
         }
+        else
+        {
+            Same = false;
+        }
+
+        return Same;
+    }
+
+    public static String dateStr(String mdy)
+    {
+        String Part1 = "";
+        String Part2 = "";
+        String Part3 = "";
+        String dmy = "";
+
+        Part1 = mdy.substring(0,2);
+        Part2 = mdy.substring(3,5);
+        Part3 = mdy.substring(6,10);
+
+        dmy = Part2 + "-" + Part1 + "-" +Part3;
+
+        return dmy;
     }
 }

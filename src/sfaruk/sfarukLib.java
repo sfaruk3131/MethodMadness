@@ -49,4 +49,11 @@ public class sfarukLib {
 
         return dmy;
     }
+
+    public static int sumUpTo(int org)
+    {
+        int numsum = 0;
+
+        numsum = numsum +
+    }
 }

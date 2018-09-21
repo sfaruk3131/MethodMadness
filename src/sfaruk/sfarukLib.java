@@ -49,4 +49,24 @@ public class sfarukLib {
 
         return dmy;
     }
+
+    public static int sumUpTo(int Sint, int upto )
+    {
+        Sint = 0;
+
+        for(int x = 1;x <= upto ; x++)
+        {
+            Sint = Sint + x;
+        }
+
+        return Sint;
+    }
+
+    public static int primePrinter(int num)
+    {
+        int Curnum = 0;
+        for(int x = num ; x <= num ; x++)
+        {
+          if(Curnum % 2 != 0)
+        }
 }

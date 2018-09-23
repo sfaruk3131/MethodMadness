@@ -1,4 +1,7 @@
 package sfaruk;
+
+import static sfaruk.sfarukLib.multiplicationTable;
+import static sfaruk.sfarukLib.sumUpTo;
 import static sfaruk.sfarukLib.dateStr;
 import static sfaruk.sfarukLib.isPalindrome;
 import static sfaruk.sfarukLib.println;
@@ -11,6 +14,10 @@ public class testfile {
         System.out.println(isPalindrome("lol"));
 
         System.out.println(dateStr("12/27/2001"));
+
+        System.out.println(sumUpTo(7, 8));
+
+        System.out.println(multiplicationTable(6,12));
 
     }
 }

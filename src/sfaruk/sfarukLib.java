@@ -50,10 +50,34 @@ public class sfarukLib {
         return dmy;
     }
 
-    public static int sumUpTo(int org)
+    public static int sumUpTo(int Sint, int upto )
     {
-        int numsum = 0;
+        Sint = 0;
 
-        numsum = numsum +
+        for(int x = 1;x <= upto ; x++)
+        {
+            Sint = Sint + x;
+        }
+
+        return Sint;
     }
+
+    public static int multiplicationTable(int base ,int range)
+    {
+
+        for(int x = 0; x <= range; x++)
+        {
+            int product = base * x;
+
+            println(Integer.toString(product));
+
+        }
+        return void;
+    }
+
+    public static String cutOut()
+    {
+
+    }
+
 }

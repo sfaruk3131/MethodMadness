@@ -1,4 +1,5 @@
 // Shihab Faruk 9/20/18
+//Need java comments and revisions
 package sfaruk;
 
 public class sfarukLib {

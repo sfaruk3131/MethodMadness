@@ -1,3 +1,4 @@
+//Shihab Faruk 9/20/18
 package sfaruk;
 import static sfaruk.sfarukLib.isFibonnaci;
 import static sfaruk.sfarukLib.multiplicationTable;

@@ -9,6 +9,12 @@ public class sfarukLib {
         System.out.println(str);
     }
 
+    /**
+     * program checks if word is aa palendrome
+     * @param word
+     * @return true or false
+     */
+
     public static boolean isPalindrome(String word)
     {
         String Back = "";
@@ -35,6 +41,12 @@ public class sfarukLib {
         return Same;
     }
 
+    /**
+     * takes date format and changes it
+     * @param mdy
+     * @return String
+     */
+
     public static String dateStr(String mdy)
     {
         String Part1 = "";
@@ -51,6 +63,12 @@ public class sfarukLib {
         return dmy;
     }
 
+    /**
+     * finds the sum up to a certain number
+     * @param Sint
+     * @return int
+     */
+
     public static int sumUpTo(int Sint)
     {
         int Sum = 0;
@@ -62,6 +80,13 @@ public class sfarukLib {
 
         return Sum;
     }
+
+    /**
+     * multiplies the base with number up to the range
+     * @param base
+     * @param range
+     * @return int
+     */
 
     public static int multiplicationTable(int base ,int range)
     {
@@ -75,6 +100,12 @@ public class sfarukLib {
         }
         return void;
     }
+
+    /**
+     * checks if the number is in the sequence
+     * @param Check
+     * @return boolean
+     */
 
     public static boolean isFibonnaci(int Check)
     {

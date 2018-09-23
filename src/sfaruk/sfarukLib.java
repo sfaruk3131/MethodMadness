@@ -51,16 +51,16 @@ public class sfarukLib {
         return dmy;
     }
 
-    public static int sumUpTo(int Sint, int upto )
+    public static int sumUpTo(int Sint)
     {
-        Sint = 0;
+        int Sum = 0;
 
-        for(int x = 1;x <= upto ; x++)
+        for(int x = 0;x <= Sint ; x++)
         {
-            Sint = Sint + x;
+            Sum = Sum + x;
         }
 
-        return Sint;
+        return Sum;
     }
 
     public static int multiplicationTable(int base ,int range)
@@ -76,9 +76,24 @@ public class sfarukLib {
         return void;
     }
 
-    public static String cutOut()
+    public static boolean isFibonnaci(int Check)
     {
+        int num1 = 0;
+        int num2 = 1;
+        int num3 = 0;
 
+        while(num3 < Check)
+        {
+            num3 = num1 + num2;
+            num1 = num2;
+            num2 = num3;
+        }
+
+        if(num3 == Check)
+        {
+            return true;
+        }
+
+        return false;
     }
-
 }

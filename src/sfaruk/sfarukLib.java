@@ -10,9 +10,10 @@ public class sfarukLib {
     }
 
     /**
-     * program checks if word is aa palendrome
+     * program checks if word is a palindrome through for loop by using index
+     * uses substring and subtracts one each loop until length of the word
      * @param word
-     * @return true or false
+     * @return true or false boolean
      */
 
     public static boolean isPalindrome(String word)
@@ -42,7 +43,7 @@ public class sfarukLib {
     }
 
     /**
-     * takes date format and changes it
+     * takes date format and seperates the date in 3 and concatenates the order
      * @param mdy
      * @return String
      */
@@ -64,7 +65,7 @@ public class sfarukLib {
     }
 
     /**
-     * finds the sum up to a certain number
+     * finds the sum up to a certain number by using a for loop until chosen number keeps adding
      * @param Sint
      * @return int
      */
@@ -82,27 +83,31 @@ public class sfarukLib {
     }
 
     /**
-     * multiplies the base with number up to the range
+     * multiplies the base with number up to the range by using a for loop until you reach the range
+     * will print the numbers until loop ends
      * @param base
      * @param range
-     * @return int
+     * @return String
      */
 
-    public static int multiplicationTable(int base ,int range)
+    public static String multiplicationTable(int base ,int range)
     {
-
+        String end = "the end";
         for(int x = 0; x <= range; x++)
         {
             int product = base * x;
 
-            println(Integer.toString(product));
+            System.out.println(product);
 
         }
-        return void;
+        return end;
     }
 
+
+
     /**
-     * checks if the number is in the sequence
+     * checks if the number is in the sequence by assigning previous values to new ones and adding while condition
+     is true
      * @param Check
      * @return boolean
      */

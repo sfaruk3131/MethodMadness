@@ -18,7 +18,7 @@ public class testfile {
 
         System.out.println(sumUpTo(5));
 
-        System.out.println(multiplicationTable(5,12);
+        System.out.println(multiplicationTable(5,12));
 
         System.out.println(isFibonnaci(3));
     }
